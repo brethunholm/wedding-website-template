@@ -22,7 +22,7 @@ const StyledNav = styled.div`
     margin-right: 0.75rem;
   }
 
-  .nav-item button {
+  .nav-item span {
     border: none;
     background: none;
     color: var(--white);
@@ -31,18 +31,14 @@ const StyledNav = styled.div`
     font-weight: bold;
   }
 
-  .nav-item button:hover {
-    color: #fe6192;
+  .nav-item span:hover {
+    color: #efe0ca;
     transition: all 200ms ease-in;
   }
 
   .nav-item:first-child {
     margin-right: auto;
     margin-left: 1.3rem;
-  }
-
-  button:hover {
-    color: blue;
   }
 
   @media (max-width: 600px) {
@@ -62,11 +58,21 @@ export default function Navbar() {
   return (
     <StyledNav>
       <ul className="nav-list nav">
-        <li className="nav-item ">🖤</li>
-        <li className="nav-item nav">Our Story</li>
-        <li className="nav-item nav">Event Details</li>
-        <li className="nav-item nav">RSVP</li>
-        <li className="nav-item nav">Gallery</li>
+        <li className="nav-item ">
+          <span>🖤</span>
+        </li>
+        <li className="nav-item nav">
+          <span>Our Story</span>
+        </li>
+        <li className="nav-item nav">
+          <span>Registry</span>
+        </li>
+        <li className="nav-item nav">
+          <span>RSVP</span>
+        </li>
+        <li className="nav-item nav">
+          <span>Gallery</span>
+        </li>
       </ul>
     </StyledNav>
   );

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Rubik" rel="stylesheet');
+
+* {
+  box-sizing: border-box;
+}
+
+.ourStory {
+  margin: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  line-height: 0.5;
+  text-align: center;
+  font-family: 'Old Standard TT', Serif;
+}
+
+.title h1 {
+  font-size: 65px;
+  font-weight: normal;
+}
+
+.content h1 {
+  font-family: 'Old Standard TT', Serif;
+  font-weight: 300;
+}
+
+.content p {
+  font-family: 'Rubik', Sans-Serif;
+}
+
+.date {
+  font-size: 18px;
+}
+.story {
+  margin-top: 100px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 200px 1fr;
+  grid-template-areas:
+    'content1 vl   img1'
+    'img2  vl  content2'
+    'content3  vl img3';
+}
+
+.story img {
+  height: 350px;
+  border-radius: 50%;
+}
+.vl {
+  border-left: 5px solid #e2e2e2;
+  height: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  grid-area: vl;
+}
+
+.content1 {
+  grid-area: content1;
+}
+
+.photo1 {
+  grid-area: img1;
+  transform: translateY(-75px);
+}
+
+.content2 {
+  grid-area: content2;
+}
+
+.photo2 {
+  grid-area: img2;
+}
+
+.content3 {
+  grid-area: content3;
+}
+
+.photo3 {
+  grid-area: img3;
+  transform: translateY(-80px);
+}
+.content {
+  width: 500px;
+}

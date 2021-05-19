@@ -2,13 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledHero = styled.div`
+  @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Rubik" rel="stylesheet');
   .bg-image {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url('images/hero.jpg');
+    background-image: url('images/hero-black-white.jpg');
+    background-position: top;
   }
 
   .overlay {
@@ -24,6 +26,13 @@ const StyledHero = styled.div`
     justify-content: center;
     flex-direction: column;
   }
+
+  .overlay h1 {
+    font-family: 'Old Standard TT', Serif;
+    font-weight: normal;
+    font-size: 50px;
+    transform: translateY(200px);
+  }
 `;
 
 export default function Hero() {
@@ -31,7 +40,7 @@ export default function Hero() {
     <StyledHero>
       <div className="bg-image">
         <div className="overlay">
-          <h1>Dani & Ethan</h1>
+          <h1>DANI & ETHAN</h1>
         </div>
       </div>
     </StyledHero>
