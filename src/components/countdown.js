@@ -17,7 +17,7 @@ const StyledCountdown = styled.div`
   }
 
   .highlight {
-    color: #efe0ca;
+    color: #bcbdc2;
   }
 `;
 

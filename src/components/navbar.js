@@ -8,7 +8,6 @@ const StyledNav = styled.div`
 
   .nav-list {
     background: white;
-    box-shadow: 0px 0px 10px grey;
     margin: 0;
     padding: 1rem 0;
     border-radius: 2px;
@@ -32,7 +31,7 @@ const StyledNav = styled.div`
   }
 
   .nav-item span:hover {
-    color: #efe0ca;
+    color: #bcbdc2;
     transition: all 200ms ease-in;
   }
 
