@@ -1,0 +1,15 @@
+.countdown {
+  height: 30vh;
+  width: 100vw;
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 35px;
+}
+
+.highlight {
+  color: #bcbdc2;
+}
