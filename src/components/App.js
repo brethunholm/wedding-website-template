@@ -1,9 +1,10 @@
 import React from 'react';
-import Countdown from './countdown';
-import Hero from './hero';
-import NavBar from './navbar';
-import OurStory from './ourStory';
-import Rsvp from './rsvp';
+import Countdown from './Countdown';
+import Hero from './Hero';
+import NavBar from './Navbar';
+import OurStory from './OurStory';
+import Rsvp from './Rsvp';
+import './Style.css';
 
 export default function App() {
   return (

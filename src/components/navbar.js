@@ -27,7 +27,7 @@ const StyledNav = styled.div`
   .nav-item span {
     border: none;
     background: none;
-    color: var(--white);
+
     /* text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5); */
     font-size: 0.75rem;
     font-weight: bold;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ourStory.css';
+import './OurStory.css';
 
 export default function OurStory() {
   return (

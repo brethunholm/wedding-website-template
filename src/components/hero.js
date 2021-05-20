@@ -1,5 +1,5 @@
 import React from 'react';
-// import './hero.css';
+// import './Hero.css';
 import styled from 'styled-components';
 
 const StyledHero = styled.div`
