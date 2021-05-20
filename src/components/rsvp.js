@@ -10,7 +10,7 @@ const StyledRsvp = styled.div`
   display: grid;
   justify-items: center;
   align-items: center;
-
+  font-family: 'Old Standard TT', Serif;
   position: relative;
   background-size: cover;
   background-image: url('images/floral-background.jpg');
