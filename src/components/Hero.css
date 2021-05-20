@@ -1,9 +1,10 @@
 .bg-image {
   height: 90vh;
   width: 100vw;
-  position: relative;
+  /* position: relative; */
   background-size: cover;
-  background-position: 50% 50%;
+  /* background-position: 50% 50%; */
+  background: black;
   background-image: url('images/hero-black-white.jpg');
   background-position: top;
 }

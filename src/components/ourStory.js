@@ -9,10 +9,11 @@ export default function OurStory() {
         <span>OUR STORY</span>
         <h1>With love</h1>
       </div>
-      {/* <img src="images/nobackground.png" alt="" /> */}
+      <img className="flower" src="images/nobackground.png" alt="" />
 
       <div className="story">
         <div className="vl" />
+
         <div className="content content1">
           <span className="date">2009</span>
           <h1>How we met </h1>
