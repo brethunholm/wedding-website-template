@@ -2,10 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledNav = styled.div`
-  @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Rubik" rel="stylesheet');
   color: var(--white);
   box-sizing: border-box;
-  font-family: 'Old Standard TT', Serif;
 
   .logo {
     height: 3rem;
