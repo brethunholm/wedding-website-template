@@ -6,6 +6,10 @@ const StyledNav = styled.div`
   box-sizing: border-box;
   font-family: 'Roboto', Sans-Serif;
 
+  .logo {
+    height: 3rem;
+  }
+
   .nav-list {
     background: white;
     margin: 0;
@@ -58,7 +62,7 @@ export default function Navbar() {
     <StyledNav>
       <ul className="nav-list nav">
         <li className="nav-item ">
-          <span>🖤</span>
+          <img className="logo" src="images/logo.png" alt="" />
         </li>
         <li className="nav-item nav">
           <span>Our Story</span>

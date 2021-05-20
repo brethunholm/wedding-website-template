@@ -38,6 +38,13 @@ const StyledHero = styled.div`
     .bg-image {
       height: 30vh;
     }
+    .overlay {
+      height: 30vh;
+    }
+    .overlay h1 {
+      font-size: 1.5rem;
+      transform: translateY(70px);
+    }
   }
 `;
 
