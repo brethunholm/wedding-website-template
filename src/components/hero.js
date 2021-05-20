@@ -3,7 +3,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledHero = styled.div`
-  @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Rubik" rel="stylesheet');
   .bg-image {
     height: 90vh;
     width: 100vw;
