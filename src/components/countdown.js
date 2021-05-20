@@ -5,7 +5,6 @@ const StyledCountdown = styled.div`
   height: 30vh;
   width: 100vw;
   padding: 50px;
-  /* background: mistyrose; */
 
   .countdown {
     display: flex;
@@ -30,7 +29,7 @@ export default function Countdown() {
         </p>
         <p>
           {' '}
-          <span className="highlight">22</span> days{' '}
+          <span className="highlight">22</span> days
         </p>
         <p>
           {' '}

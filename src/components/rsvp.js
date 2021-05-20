@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import styled from 'styled-components';
 
@@ -9,24 +10,30 @@ const StyledRsvp = styled.div`
 
   .background {
     height: 90vh;
-    width: 1200px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /* position: relative; */
+    background-size: cover;
+    background-image: url('images/floral-background.jpg');
+  }
+
+  .rsvp-container {
+    height: 90%;
+    width: 60%;
+    border: solid red 2px;
+    background: white;
+    padding: 50px;
     display: grid;
     justify-content: center;
     align-items: center;
-    position: relative;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-image: url('images/floral-background.jpg');
-    background-position: top;
   }
 
   .form {
-    height: 90%;
-    width: 1000px;
-    background: white;
     display: grid;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 `;
 
@@ -34,12 +41,25 @@ export default function Rsvp() {
   return (
     <StyledRsvp>
       <div className="background">
-        <div className="form">
+        <div className="rsvp-container">
           <span>RSVP</span>
-          <h1>Are you attending?</h1>
+          <h1>We are so excited to celebrate with you!</h1>
+          <h3>Kindly respond by September 1st 2021</h3>
           <form className="form">
-            <input type="checkbox" />
-            <input type="checkbox" />
+            <input type="text" placeholder="email" />
+            <input type="text" placeholder="name" />
+            <label>
+              Are you attending?
+              <input type="text" />
+            </label>
+            <label>
+              Who is joining you?
+              <input type="text" />
+            </label>
+            <label>
+              Message:
+              <input type="text" />
+            </label>
           </form>
         </div>
       </div>
