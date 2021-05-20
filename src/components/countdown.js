@@ -1,24 +1,5 @@
 import React from 'react';
 import './countdown.css';
-// import styled from 'styled-components';
-
-// const StyledCountdown = styled.div`
-//   .countdown {
-//     height: 30vh;
-//     width: 100vw;
-//     padding: 50px;
-//     display: flex;
-//     gap: 20px;
-//     justify-content: center;
-//     align-items: center;
-//     align-content: center;
-//     font-size: 35px;
-//   }
-
-//   .highlight {
-//     color: #bcbdc2;
-//   }
-// `;
 
 export default function Countdown() {
   return (
@@ -28,7 +9,7 @@ export default function Countdown() {
       </p>
       <p>
         {' '}
-        <span className="highlight">22</span> days
+        <span className="highlight">22</span> Days
       </p>
       <p>
         {' '}

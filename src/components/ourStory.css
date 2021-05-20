@@ -90,7 +90,7 @@
   width: 20vw;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 750px) {
   .story {
     display: grid;
     grid-template-columns: 1fr;
@@ -107,5 +107,9 @@
   }
   .content {
     text-align: center;
+  }
+  .story img {
+    height: 20vh;
+    border-radius: 50%;
   }
 }

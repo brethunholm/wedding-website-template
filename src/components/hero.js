@@ -8,7 +8,7 @@ const StyledHero = styled.div`
     width: 100vw;
     position: relative;
     background-size: cover;
-    background-position: 50% 50%;
+    /* background-position: 50% 50%; */
     background-image: url('images/hero-black-white.jpg');
     background-position: top;
   }
@@ -19,7 +19,7 @@ const StyledHero = styled.div`
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.35);
     color: white;
     display: flex;
     align-items: center;
@@ -30,8 +30,14 @@ const StyledHero = styled.div`
   .overlay h1 {
     font-family: 'Old Standard TT', Serif;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 4rem;
     transform: translateY(200px);
+  }
+
+  @media (max-width: 900px) {
+    .bg-image {
+      height: 30vh;
+    }
   }
 `;
 
