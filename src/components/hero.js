@@ -8,7 +8,7 @@ const StyledHero = styled.div`
     width: 100vw;
     position: relative;
     background-size: cover;
-    /* background-position: 50% 50%; */
+    background-position: 50% 50%;
     background-image: url('images/hero-black-white.jpg');
     background-position: top;
   }
