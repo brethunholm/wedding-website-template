@@ -43,7 +43,7 @@ const StyledHero = styled.div`
     }
     .overlay h1 {
       font-size: 1.5rem;
-      transform: translateY(70px);
+      transform: translateY(50px);
     }
   }
 `;
