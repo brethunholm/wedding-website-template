@@ -1,23 +1,20 @@
 import React from 'react';
-import './Countdown.css';
+import './countdown.css';
 
 export default function Countdown() {
   return (
-    <div className="countdown-container">
-      <div className="countdown">
-        <div className="months num">
-          <p className="monthsAmount highlight">04</p>
-          <p className="monthsName unit">Months</p>
-        </div>
-        <div className="days num">
-          <p className="daysAmount highlight">22</p>
-          <p className="daysName unit">Days</p>
-        </div>
-        <div className="hours num">
-          <p className="hoursAmount highlight">03</p>
-          <p className="hoursName unit">Hours</p>
-        </div>
-      </div>
+    <div className="countdown">
+      <p>
+        <span className="highlight">04</span> Months
+      </p>
+      <p>
+        {' '}
+        <span className="highlight">22</span> Days
+      </p>
+      <p>
+        {' '}
+        <span className="highlight">03</span> Hours
+      </p>
     </div>
   );
 }

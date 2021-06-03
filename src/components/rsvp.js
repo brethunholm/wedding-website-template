@@ -10,6 +10,7 @@ const StyledRsvp = styled.div`
   display: grid;
   justify-items: center;
   align-items: center;
+  font-family: 'Old Standard TT', Serif;
   position: relative;
   background-size: cover;
   background-image: url('images/floral-background.jpg');
@@ -22,11 +23,10 @@ const StyledRsvp = styled.div`
     height: 90%;
     width: 60%;
     background: white;
-    margin: 3rem;
-    padding: 1rem;
+    padding: 50px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
   }
@@ -34,9 +34,7 @@ const StyledRsvp = styled.div`
   .form {
     display: grid;
     justify-content: center;
-    padding: 1rem;
-    height: 30vh;
-    border: 1px solid red;
+    gap: 20px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 `;

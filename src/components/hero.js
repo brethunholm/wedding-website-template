@@ -1,5 +1,5 @@
 import React from 'react';
-// import './Hero.css';
+// import './hero.css';
 import styled from 'styled-components';
 
 const StyledHero = styled.div`
@@ -43,7 +43,7 @@ const StyledHero = styled.div`
     }
     .overlay h1 {
       font-size: 1.5rem;
-      transform: translateY(50px);
+      transform: translateY(70px);
     }
   }
 `;

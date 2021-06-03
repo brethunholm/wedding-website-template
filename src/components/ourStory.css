@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 .ourStory {
-  margin: 3rem;
+  margin: 30px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -20,17 +24,20 @@
 
 .content h1 {
   font-weight: 300;
-  font-size: 1.5rem;
+}
+
+.content p {
+  /* font-family: 'Rubik', Sans-Serif; */
 }
 
 .date {
-  font-size: 1rem;
+  font-size: 18px;
 }
 .story {
   margin-top: 2rem;
   display: grid;
-  /* gap: 1rem; */
-  /* padding: 3rem; */
+  gap: 1rem;
+  padding: 3rem;
   grid-template-columns: 1fr 200px 1fr;
   grid-template-areas:
     'content1 vl   img1'
@@ -38,35 +45,17 @@
     'content3  vl img3';
 }
 
-.story h1,
-p {
-  /* border: 1px solid red; */
-  margin: 0px;
-}
-
-.story p {
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-}
 .story img {
-  height: 40vh;
+  height: 25vh;
   border-radius: 50%;
 }
 .vl {
   border-left: 5px solid #e2e2e2;
-  height: 90vh;
+  height: 80vh;
   position: absolute;
   left: 50%;
   /* margin-left: -3px; */
   grid-area: vl;
-}
-.flower {
-  position: absolute;
-  z-index: -1;
-  transform: translateY(-5rem);
-  transform: translateX(-3rem);
-  padding: 0;
-  margin: 0;
 }
 
 .content1 {
@@ -91,13 +80,12 @@ p {
 
 .photo3 {
   grid-area: img3;
-  transform: translateY(-3rem);
 }
 .content {
   width: 20vw;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
   .story {
     display: grid;
     gap: 5px;
@@ -118,13 +106,8 @@ p {
   }
 
   .story img {
-    height: 25vh;
+    height: 35vh;
     border-radius: 50%;
     transform: translateX(40px);
-  }
-
-  .photo3 {
-    grid-area: img3;
-    transform: translateY(0);
   }
 }

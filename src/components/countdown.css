@@ -1,60 +1,15 @@
-.countdown-container {
-  display: grid;
+.countdown {
+  height: 30vh;
+  width: 100vw;
+  padding: 2rem;
+  display: flex;
+  gap: 20px;
   justify-content: center;
   align-items: center;
-}
-
-.countdown {
-  /* width: 30vw; */
-  padding: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
-  gap: 2rem;
-  grid-template-areas:
-    'monthsNum daysNum hoursNum'
-    'months    days    hours';
-  font-size: 3rem;
+  align-content: center;
+  font-size: 35px;
 }
 
 .highlight {
   color: #bcbdc2;
-}
-.unit {
-  font-size: 1.5rem;
-  font-style: oblique;
-  text-align: center;
-}
-
-.num {
-  font-size: 1.75rem;
-  text-align: center;
-}
-.monthsAmount {
-  grid-area: monthsNum;
-}
-
-.monthsName {
-  grid-area: months;
-}
-
-.daysAmount {
-  grid-area: daysNum;
-}
-
-.daysAmount {
-  grid-area: days;
-}
-
-.hoursAmount {
-  grid-area: hoursNum;
-}
-
-.hoursName {
-  grid-area: hours;
-}
-
-@media (max-width: 750px) {
-  .countdown {
-  }
 }
