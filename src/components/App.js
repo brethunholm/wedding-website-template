@@ -4,7 +4,6 @@ import Hero from './Hero';
 import NavBar from './Navbar';
 import OurStory from './OurStory';
 import Rsvp from './Rsvp';
-import './Style.css';
 
 export default function App() {
   return (
