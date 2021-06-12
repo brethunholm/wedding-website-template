@@ -10,6 +10,7 @@ const StyledRsvp = styled.div`
   display: grid;
   justify-items: center;
   align-items: center;
+  gap: 0;
   font-family: 'Old Standard TT', Serif;
   position: relative;
   background-size: cover;
@@ -17,6 +18,7 @@ const StyledRsvp = styled.div`
 
   .center {
     text-align: center;
+    border: 1px solid red;
   }
 
   .rsvp-container {
