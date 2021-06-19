@@ -18,7 +18,7 @@ const StyledRsvp = styled.div`
 
   .center {
     text-align: center;
-    border: 1px solid blue;
+    border: 1px solid grey;
     margin: 0;
   }
 
