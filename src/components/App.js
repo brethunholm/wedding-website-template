@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Countdown from './countdown';
 import Hero from './hero';
 import NavBar from './navbar';

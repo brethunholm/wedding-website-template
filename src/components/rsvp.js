@@ -70,7 +70,7 @@ const StyledRsvp = styled.div`
     width: 400px;
   }
   button {
-    color: #666;
+    color: #264356;
     background-color: #83a8d4;
     border: none;
     font-family: 'Raleway';
@@ -84,7 +84,7 @@ const StyledRsvp = styled.div`
 
   button.accept {
     border-radius: 0px 0px 0px 10px;
-    border-right: solid 1px #cc919a;
+    border-right: solid 1px #bdd9f2;
   }
 
   button.regret {
@@ -104,7 +104,7 @@ const StyledRsvp = styled.div`
 export default function Rsvp() {
   return (
     <StyledRsvp>
-      <div className="top" />
+      <div className="top" id="rsvp" />
       <form className="form">
         <div className="info">
           <h1>RSVP</h1>
@@ -112,7 +112,7 @@ export default function Rsvp() {
           <h1>Ethan & Dani</h1>
           <p className="line">________________________________________</p>
           <h2>The Details</h2>
-          <p>Saturday, June 18, 2016</p>
+          <p>Saturday, October 16, 2021</p>
           <p>5:00 PM</p>
           <br />
           <h2>Ceremony & Reception</h2>

@@ -24,16 +24,17 @@ const StyledNav = styled.div`
     margin-right: 0.75rem;
   }
 
-  .nav-item span {
+  .nav-item a {
     border: none;
     background: none;
     color: var(--white);
     /* text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5); */
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: bold;
+    text-decoration: none;
   }
 
-  .nav-item span:hover {
+  .nav-item a:hover {
     color: #bcbdc2;
     transition: all 200ms ease-in;
   }
@@ -64,16 +65,16 @@ export default function Navbar() {
           <img className="logo" src="images/logo.png" alt="" />
         </li>
         <li className="nav-item nav">
-          <span>Our Story</span>
+          <a href="#story">Our Story</a>
         </li>
         <li className="nav-item nav">
-          <span>Registry</span>
+          <a>Registry</a>
         </li>
         <li className="nav-item nav">
-          <span>RSVP</span>
+          <a href="#rsvp">RSVP</a>
         </li>
         <li className="nav-item nav">
-          <span>Gallery</span>
+          <a>Gallery</a>
         </li>
       </ul>
     </StyledNav>
