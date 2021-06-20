@@ -5,15 +5,15 @@ export default function Countdown() {
   return (
     <div className="countdown">
       <p>
-        <span className="highlight">04</span> Months
+        <span className="highlight">04</span> MONTHS
       </p>
+      <hr />
       <p>
-        {' '}
-        <span className="highlight">22</span> Days
+        <span className="highlight">22</span> DAYS
       </p>
+      <hr />
       <p>
-        {' '}
-        <span className="highlight">03</span> Hours
+        <span className="highlight">03</span> HOURS
       </p>
     </div>
   );

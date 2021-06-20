@@ -5,10 +5,10 @@ import styled from 'styled-components';
 const StyledRsvp = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Rubik" rel="stylesheet');
 
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  /* margin: 0;
+  padding: 0; */
   background-color: #bdc3c7;
 
   .top {
@@ -20,10 +20,10 @@ const StyledRsvp = styled.div`
   }
 
   .form {
-    height: 90vh;
-    width: 30vw;
+    height: 80vh;
+    width: 45vw;
     background-color: #fff;
-    margin: -110px auto;
+    margin: -80px auto;
     border-radius: 10px;
     color: #666;
     padding: 0px 0px;
@@ -53,10 +53,10 @@ const StyledRsvp = styled.div`
   }
 
   .form input {
-    font-size: 15px;
+    font-size: 1rem;
     color: #666;
-    padding: 6px;
-    margin: 25px auto 20px;
+    padding: 3px;
+    margin: 1rem auto 1rem;
     display: block;
     width: 75%;
   }
@@ -77,7 +77,7 @@ const StyledRsvp = styled.div`
     font-size: 18px;
     font-weight: 600;
     padding: 15px 32px;
-    width: 200px;
+    width: 15vw;
     margin: 20px auto 0px auto;
     float: left;
   }
@@ -96,8 +96,7 @@ const StyledRsvp = styled.div`
     transition: 0.5s;
   }
 
-  button:focus {
-    outline: 0;
+  @media (max-width: 900px) {
   }
 `;
 

@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 export default function Gallery() {
   return (
-    <div className="gallery">
+    <div className="gallery" id="gallery">
       <Carousel
         autoPlay="true"
         infiniteLoop="true"

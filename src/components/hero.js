@@ -4,13 +4,16 @@ import styled from 'styled-components';
 
 const StyledHero = styled.div`
   .bg-image {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
     background-image: url('images/hero-black-white.jpg');
-    background-position: top;
+    /* background-position: top; */
+    z-index: 1000;
+    border-bottom: 3rem solid #274355;
+    border-top: 2rem solid #274355;
   }
 
   .overlay {
@@ -19,7 +22,7 @@ const StyledHero = styled.div`
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.55);
     color: white;
     display: flex;
     align-items: center;
@@ -31,6 +34,10 @@ const StyledHero = styled.div`
     font-family: 'Old Standard TT', Serif;
     font-weight: normal;
     font-size: 4rem;
+    transform: translateY(200px);
+  }
+
+  .words {
     transform: translateY(200px);
   }
 
@@ -53,7 +60,7 @@ export default function Hero() {
     <StyledHero>
       <div className="bg-image">
         <div className="overlay">
-          <h1>DANI & ETHAN</h1>
+          <img className="words" src="images/dani-ethan.png" alt="" />
         </div>
       </div>
     </StyledHero>

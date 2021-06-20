@@ -4,6 +4,7 @@ import Countdown from './countdown';
 import Hero from './hero';
 import NavBar from './navbar';
 import OurStory from './ourStory';
+import Spacer from './spacer';
 import Gallery from './Gallery';
 import Rsvp from './rsvp';
 
@@ -14,6 +15,7 @@ export default function App() {
       <Hero />
       <Countdown />
       <OurStory />
+      <Spacer />
       <Gallery />
       <Rsvp />
     </div>

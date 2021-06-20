@@ -71,7 +71,7 @@ export default function Navbar() {
           <a href="#rsvp">RSVP</a>
         </li>
         <li className="nav-item nav">
-          <a>Gallery</a>
+          <a href="#gallery">Gallery</a>
         </li>
         <li className="nav-item nav">
           <a
