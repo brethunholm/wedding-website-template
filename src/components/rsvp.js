@@ -13,15 +13,15 @@ const StyledRsvp = styled.div`
 
   .top {
     background-color: #264356;
-    height: 200px;
+    height: 20vh;
     margin: 0;
     padding: 0;
     box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
   }
 
   .form {
-    height: 590px;
-    width: 400px;
+    height: 90vh;
+    width: 30vw;
     background-color: #fff;
     margin: -110px auto;
     border-radius: 10px;
