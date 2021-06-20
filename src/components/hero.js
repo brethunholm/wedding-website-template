@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const StyledHero = styled.div`
   .bg-image {
-    height: 60vh;
+    height: 75vh;
     width: 100vw;
     position: relative;
     background-size: cover;

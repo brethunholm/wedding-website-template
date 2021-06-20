@@ -5,67 +5,130 @@ import styled from 'styled-components';
 const StyledRsvp = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Rubik" rel="stylesheet');
 
-  height: 90vh;
+  height: 100%;
   width: 100%;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  gap: 0;
-  font-family: 'Old Standard TT', Serif;
-  position: relative;
-  background-size: cover;
-  background-image: url('images/floral-background.jpg');
+  margin: 0;
+  padding: 0;
+  background-color: #bdc3c7;
 
-  .center {
-    text-align: center;
-    border: 1px solid grey;
+  .top {
+    background-color: #264356;
+    height: 200px;
     margin: 0;
-  }
-
-  .rsvp-container {
-    height: 90%;
-    width: 60%;
-    background: white;
-    padding: 50px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
   }
 
   .form {
-    display: grid;
-    justify-content: center;
-    gap: 20px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 590px;
+    width: 400px;
+    background-color: #fff;
+    margin: -110px auto;
+    border-radius: 10px;
+    color: #666;
+    padding: 0px 0px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
+  }
+
+  .info {
+    padding: 10px;
+  }
+
+  h1,
+  h2,
+  p {
+    text-align: center;
+    padding: 0px;
+    margin: 5px 5px;
+  }
+
+  h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
+  }
+
+  p.line {
+    margin: 0px auto 20px auto;
+    color: #999;
+  }
+
+  .form input {
+    font-size: 15px;
+    color: #666;
+    padding: 6px;
+    margin: 25px auto 20px;
+    display: block;
+    width: 75%;
+  }
+
+  input:focus {
+    outline: 0;
+  }
+
+  .button button {
+    display: inline-block;
+    width: 400px;
+  }
+  button {
+    color: #666;
+    background-color: #83a8d4;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 32px;
+    width: 200px;
+    margin: 20px auto 0px auto;
+    float: left;
+  }
+
+  button.accept {
+    border-radius: 0px 0px 0px 10px;
+    border-right: solid 1px #cc919a;
+  }
+
+  button.regret {
+    border-radius: 0px 0px 10px 0px;
+  }
+
+  button:hover {
+    background-color: #cc919a;
+    transition: 0.5s;
+  }
+
+  button:focus {
+    outline: 0;
   }
 `;
 
 export default function Rsvp() {
   return (
     <StyledRsvp>
-      <div className="rsvp-container">
-        <p className="center">RSVP</p>
-        <h1 className="center">We are so excited to celebrate with you!</h1>
-        <h3 className="center">Kindly respond by September 1st 2021</h3>
-        <form className="form">
-          <input type="text" placeholder="email" />
-          <input type="text" placeholder="name" />
-          <label>
-            Are you attending?
-            <input type="text" />
-          </label>
-          <label>
-            Who is joining you?
-            <input type="text" />
-          </label>
-          <label>
-            Message:
-            <input type="text" />
-          </label>
-        </form>
-      </div>
+      <div className="top" />
+      <form className="form">
+        <div className="info">
+          <h1>RSVP</h1>
+          <h2>for the wedding of</h2>
+          <h1>Ethan & Dani</h1>
+          <p className="line">________________________________________</p>
+          <h2>The Details</h2>
+          <p>Saturday, June 18, 2016</p>
+          <p>5:00 PM</p>
+          <br />
+          <h2>Ceremony & Reception</h2>
+          <p>The Lodge at Malibou Lake</p>
+          <p>29022 Lake Vista Dr, Angoura Hills, CA 91301</p>
+          <p className="line">________________________________________</p>
+          <input type="text" placeholder="Name" />
+          <input type="number" placeholder="# of Guests" />
+        </div>
+        <button className="accept" type="button">
+          Accept
+        </button>
+        <button className="regret" type="button">
+          Regret
+        </button>
+      </form>
     </StyledRsvp>
   );
 }
