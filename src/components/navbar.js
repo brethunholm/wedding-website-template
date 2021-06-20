@@ -68,13 +68,19 @@ export default function Navbar() {
           <a href="#story">Our Story</a>
         </li>
         <li className="nav-item nav">
-          <a>Registry</a>
-        </li>
-        <li className="nav-item nav">
           <a href="#rsvp">RSVP</a>
         </li>
         <li className="nav-item nav">
           <a>Gallery</a>
+        </li>
+        <li className="nav-item nav">
+          <a
+            href="https://www.vogue.com/article/best-wedding-registries-list"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resistry
+          </a>
         </li>
       </ul>
     </StyledNav>
