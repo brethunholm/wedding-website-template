@@ -99,6 +99,9 @@ const StyledRsvp = styled.div`
   }
 
   @media (max-width: 900px) {
+    button {
+      transform: translateY(0);
+    }
   }
 `;
 

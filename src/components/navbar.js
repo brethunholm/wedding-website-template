@@ -54,6 +54,10 @@ const StyledNav = styled.div`
     .nav-item:first-child {
       opacity: 1;
     }
+
+    .nav-list {
+      display: none;
+    }
   }
 `;
 

@@ -43,7 +43,7 @@ const StyledHero = styled.div`
 
   @media (max-width: 900px) {
     .bg-image {
-      height: 30vh;
+      height: 35vh;
       position: relative;
       background-size: cover;
       background-position: 50% 50%;

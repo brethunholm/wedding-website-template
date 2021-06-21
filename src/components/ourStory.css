@@ -34,11 +34,11 @@
   font-size: 18px;
 }
 .story {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   display: grid;
   gap: 1rem;
   padding: 3rem;
-  grid-template-columns: 1fr 200px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     'content1 vl   img1'
     'img2  vl  content2'
@@ -88,7 +88,9 @@
 @media (max-width: 750px) {
   .story {
     display: grid;
-    gap: 5px;
+    gap: 0.5rem;
+    padding: 0;
+    transform: translateY(-150px);
     grid-template-columns: 1fr;
     grid-template-areas:
       'img1'
