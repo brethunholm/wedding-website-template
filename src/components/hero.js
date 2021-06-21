@@ -44,6 +44,14 @@ const StyledHero = styled.div`
   @media (max-width: 900px) {
     .bg-image {
       height: 30vh;
+      position: relative;
+      background-size: cover;
+      background-position: 50% 50%;
+      background-image: url('images/black-white.jpg');
+      /* background-position: top; */
+      z-index: 1000;
+      border-bottom: 3rem solid #274355;
+      border-top: 2rem solid #274355;
     }
     .overlay {
       height: 30vh;
@@ -51,6 +59,9 @@ const StyledHero = styled.div`
     .overlay h1 {
       font-size: 1.5rem;
       transform: translateY(70px);
+    }
+    .words {
+      transform: translateY(0);
     }
   }
 `;
