@@ -66,29 +66,31 @@ const StyledRsvp = styled.div`
   }
 
   .button button {
-    display: inline-block;
-    width: 400px;
+    /* display: inline-block; */
+    /* width: 400px; */
   }
   button {
     color: #264356;
     background-color: #83a8d4;
     border: none;
     font-family: 'Raleway';
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
-    padding: 15px 32px;
-    width: 15vw;
-    margin: 20px auto 0px auto;
-    float: left;
+    padding: 0.75rem 1rem;
+    width: 22.5vw;
+    margin: auto;
+    transform: translateY(4rem);
   }
 
   button.accept {
     border-radius: 0px 0px 0px 10px;
     border-right: solid 1px #bdd9f2;
+    float: left;
   }
 
   button.regret {
     border-radius: 0px 0px 10px 0px;
+    float: right;
   }
 
   button:hover {
