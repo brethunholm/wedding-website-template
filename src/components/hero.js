@@ -48,7 +48,7 @@ const StyledHero = styled.div`
       background-size: cover;
       background-position: 50% 50%;
       background-image: url('images/black-white.jpg');
-      /* background-position: top; */
+      background-position: top;
       z-index: 1000;
       border-bottom: 3rem solid #274355;
       border-top: 2rem solid #274355;
