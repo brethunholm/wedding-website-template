@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const StyledNav = styled.div`
   color: var(--white);
   box-sizing: border-box;
+  border-bottom: 3rem solid #274355;
 
   .logo {
     height: 3rem;

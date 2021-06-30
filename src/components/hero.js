@@ -4,16 +4,24 @@ import styled from 'styled-components';
 
 const StyledHero = styled.div`
   .bg-image {
-    height: 95vh;
+    height: 80vh;
     width: 100vw;
     position: relative;
     background-size: cover;
-    background-position: 50% 50%;
-    background-image: url('images/hero-black-white.jpg');
-    /* background-position: top; */
+    background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+    background-image: url('images/hero.jpg');
+    background-position: top;
+    background-attachment: fixed;
     z-index: 1000;
     border-bottom: 3rem solid #274355;
-    border-top: 2rem solid #274355;
+    /* border-top: 2rem solid #274355; */
+  }
+
+  .border {
+    height: 20%;
+    background-color: #274355;
+    width: 100vw;
   }
 
   .overlay {
@@ -69,11 +77,13 @@ const StyledHero = styled.div`
 export default function Hero() {
   return (
     <StyledHero>
+      <div className="border" />
       <div className="bg-image">
         <div className="overlay">
           <img className="words" src="images/dani-ethan.png" alt="" />
         </div>
       </div>
+      <div className="border" />
     </StyledHero>
   );
 }
